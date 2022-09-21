@@ -1,0 +1,29 @@
+.en-input {
+  height: 55px;
+  width: 320px;
+  border-radius: 10px;
+  border: 1px solid $primary2;
+  padding: 0 12px;
+  margin: 16px 0;
+  box-sizing: border-box;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+
+  font-size: 18px;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  color: $neutral2;
+
+  &:active, &:focus {
+    outline: none;
+  }
+}
+
+.en-input.error {
+  border-color: $alert2;
+}

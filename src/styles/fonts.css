@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Helvetica'),
+    url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Helvetica'),
+  url('../assets/fonts/Helvetica.ttf') format('truetype'),
+}

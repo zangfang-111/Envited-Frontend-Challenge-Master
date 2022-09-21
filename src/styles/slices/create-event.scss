@@ -1,0 +1,25 @@
+.create-event {
+  .create-event-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h3 {
+    margin-bottom: 60px;
+  }
+
+  .create-event__state-fiels {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .create-event__location-fields {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 60px;
+  }
+}

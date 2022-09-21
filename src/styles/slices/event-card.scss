@@ -1,0 +1,43 @@
+.event-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 20px 0;
+  cursor: pointer;
+
+  .event-card__details {
+    display: flex;
+    align-items: center;
+  }
+
+  .event-card__icon-wrapper {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+
+    svg {
+      font-size: 32px;
+      color: $primary3;
+    }
+  }
+
+  .event-card__time {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-card__time small:first-child {
+    color: $primary1;
+    font-weight: bold;
+  }
+}

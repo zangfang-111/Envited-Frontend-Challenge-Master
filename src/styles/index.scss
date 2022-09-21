@@ -1,0 +1,50 @@
+@import './common/colors';
+@import './common/button';
+@import './common/paragraphs';
+@import './common/input';
+
+@import './slices/landing.scss';
+@import './slices/event.scss';
+@import './slices/event-card.scss';
+@import './slices/create-event.scss';
+
+body {
+  margin: 0;
+  font-family: 'Helvetica';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Helvetica', monospace;
+}
+
+#root {
+  background: linear-gradient(0deg, $purple3, $purple3), #FBFAFF;;
+}
+
+.container {
+  max-width: 1512px;
+  min-height: 100vh;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.is-hidden-desktop {
+  display: none;
+
+  @media screen and (max-width: 960px) {
+    display: flex;
+  }
+}
+
+.is-hidden-tablet {
+  display: flex;
+
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
+}

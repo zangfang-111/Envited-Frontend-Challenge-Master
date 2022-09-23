@@ -20,9 +20,28 @@
     font-size: 16px;
   }
 
-  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+  background: linear-gradient(90deg, $primary3 3.25%, $primary4 100%);
   border-radius: 10px;
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.btn-purple {
+  height: 40px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+  background: $alert1;
+  margin: 16px 0;
+  font-size: 16px;
+  color: $alert2;
+}
+
+.btn-secondary {
+  height: 40px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
+  background: white;
+  color: $primary1;
+  font-size: 16px;
 }

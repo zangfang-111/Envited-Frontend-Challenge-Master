@@ -4,12 +4,13 @@ function Input ({
   value,
   name,
   invalid,
+  classes,
 }) {
   const err = invalid && value === '';
 
   return (
     <input
-      className={`en-input ${err ? 'error' : ''}`}
+      className={`en-input ${classes} ${err ? 'error' : ''}`}
       type='text'
       placeholder={placeholder}
       onChange={e => onChange(name, e)}

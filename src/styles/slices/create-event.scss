@@ -1,25 +1,48 @@
 .create-event {
+  width: 100%;
+  padding: 0 160px;
+
   .create-event-container {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    justify-content: space-between;
+  }
+
+  .create-event__cancel {
+    cursor: pointer;
+    color: $neutral1;
   }
 
   h3 {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .create-event__state-fiels {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+
+    input.half-width {
+      width: 48%;
+    }
   }
 
-  .create-event__location-fields {
+  .create-event__upload-fields {
     display: flex;
     flex-direction: column;
+    width: 40%;
+    padding-top: 16px;
+
+    img {
+      width: 100%;
+      cursor: pointer;
+    }
   }
 
   button {
     margin-top: 60px;
+    width: 50%;
   }
 }

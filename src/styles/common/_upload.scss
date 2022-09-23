@@ -1,0 +1,22 @@
+.en-file-upload {
+  height: 24px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: $primary3;
+  font-family: 'Helvetica';
+  font-style: normal;
+  line-height: 26px;
+
+  font-size: 18px;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+
+  border-radius: 16px;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);;
+}

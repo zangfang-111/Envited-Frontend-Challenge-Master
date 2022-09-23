@@ -1,11 +1,13 @@
 .en-input {
-  height: 55px;
-  width: 320px;
+  height: 60px;
+  width: 100%;
   border-radius: 10px;
-  border: 1px solid $primary2;
+  border: none;
   padding: 0 12px;
   margin: 16px 0;
   box-sizing: border-box;
+
+  background-color: $neutral4;
 
   font-family: 'Helvetica';
   font-style: normal;
@@ -17,13 +19,14 @@
     font-size: 16px;
   }
 
-  color: $neutral2;
+  color: $neutral1;
 
-  &:active, &:focus {
+  &:hover, &:active, &:focus {
     outline: none;
+    background-color: $purple1;
   }
 }
 
 .en-input.error {
-  border-color: $alert2;
+  border: 1px solid $alert2;
 }

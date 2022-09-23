@@ -27,6 +27,7 @@ function LandingLayout() {
             classes='is-hidden-tablet'
             name='🎉 Create my event'
             action={() => window.location.replace('/create')}
+            testId='create-event'
           />
         </div>
       </div>

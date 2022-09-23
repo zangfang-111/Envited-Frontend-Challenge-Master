@@ -17,6 +17,12 @@
       text-align: right;
       margin-top: 0;
     }
+
+    h2 span {
+      background: linear-gradient(to right, $primary2 0%, $primary4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   .ld-layout__title {
